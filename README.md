@@ -10,6 +10,8 @@ This project looks at my technology, if I can, I will make this module and publi
 
 Possible reference to the warehouse
 
-[]: https://github.com/TheOtherRolesAU/TheOtherRoles	"TheOtherRoles"
-[]: https://github.com/haoming37/TheOtherRoles-GM-Haoming	"TheOtherRolesGM-Haoming"
+[TheOtherRoles]: https://github.com/TheOtherRolesAU/TheOtherRoles
+
+
+[TheOtherRoles-GM-Haoming]: https://github.com/haoming37/TheOtherRoles-GM-Haoming
 
