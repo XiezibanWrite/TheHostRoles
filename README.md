@@ -1,6 +1,6 @@
 # TheHostRoles
 
-![THR_Banner](https://raw.githubusercontent.com/XiezibanWrite/TheHostRoles/main/THR_Banner.png)
+![THR_Banner](https://github.com/XiezibanWrite/TheHostRoles/blob/main/THR_Banner.png)
 
 A Among Us requires only the host's modules
 
