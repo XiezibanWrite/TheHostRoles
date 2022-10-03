@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
+		<GenerateAssemblyInformationalVersionAttribute>false</GenerateAssemblyInformationalVersionAttribute>
+		<Description>TheHostRoles</Description>
+		<Authors>TheHostRoles</Authors>
+		<langVersion>preview</langVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Reference Include="D:\c\Among Us1\BepInEx\core\*.dll" />
+		<Reference Include="D:\c\Among Us1$(AmongUs)\BepInEx\unhollowed\*.dll" />
+		<EmbeddedResource Include=".\Resources\*.png" />
+	</ItemGroup>
+
+	<Target Name="Copy" AfterTargets="Build" Condition="'$(AmongUs)' != ''">
+		<Copy SourceFiles="$(OutputPath)$(AssemblyName).dll" DestinationFolder="D:\c\Among Us1/BepInEx/plugins/" Condition="'$(Configuration)' == 'Debug'" />
+	</Target>
+</Project>
